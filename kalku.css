@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto.eot');
+    src: url('fonts/roboto.eot') format('embedded-opentype'),
+         url('fonts/roboto.woff2') format('woff2'),
+         url('fonts/roboto.woff') format('woff'),
+         url('fonts/roboto.ttf') format('truetype'),
+         url('fonts/roboto.svg#roboto') format('svg');
+}
+
 .tab-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -258,9 +268,13 @@
 }
 .calculator__navigation .calculator__next {
     background-color: #06ae94;
+    border-radius: 25px;
+    height: 40px;
 }
 .calculator__navigation .calculator__prev {
     margin-right: 20px;
+    border-radius: 25px;
+    height: 40px;
 }
 .calculator__block__bottom {
     display: -webkit-box;
