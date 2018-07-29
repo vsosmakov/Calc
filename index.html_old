@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	 <link rel="icon" href="favicon.ico" type="image/x-icon">
+	<title>
+	Калькулятор имплантации зубов
+</title>
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	
+	<script src="jquery-1.10.2.min.js" type="text/javascript"></script>
+  <script src="owl.carousel.js" type="text/javascript"></script>
+   
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css"
+          media="all"/>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=latin,cyrillic" rel="stylesheet">
+	
+
+</head>
+<body>
+	
+	<div class="wrapper">
+  
+
+	
+
+<div id="main" class="service-new ">
+	
+	<div class="moduletable">
+	
+<div class="calculator calculator_new">
+	<div class="calculator__block_n">		
+		<a class="calculator__first-link active" href="javascript:void(0);" data-js-calculator-open-tab="0">
+			<input id="tab_input1" class="radio" type="radio" name="calc_type" value="implantation" checked>
+			<label for="tab_input1">Калькулятор расчёта стоимости имплантации зубов</label>
+		</a>
+
+		
+	</div>
+	
+	<div class="calculator__tabs" data-js-calculator="tabs">		
+		<!-- Имплантация -->
+		<div class="calculator__tab">
+			<div class="tabs-navigation">
+				<a href="javascript:void(0);" data-js-nav-open-tab="0" data-count="1." class="active"><span>Система</span><br><span>имплантации</span></a>
+				<a href="javascript:void(0);" data-js-nav-open-tab="1" data-count="2."><span>Материал</span><br><span>коронки</span></a>
+				<a href="javascript:void(0);" data-js-nav-open-tab="2" data-count="3."><span>Число</span><br><span>имплантов</span></a>
+				<a href="javascript:void(0);" data-js-nav-open-tab="3" class="tabs__last__item"><span>Итоговая</span><br><span>стоимость</span></a>
+			</div>
+			<div class="tabs-calculator">
+				<div class="calculator__block calculator_new__tab active clearfix">				
+					<div class="calculator__block__half">
+						<div class="calculator__step">Выберите систему имплантации:</div>
+						<div class="styled-select">
+							<select name="s2" id="s2" onChange="Selecte(this)">
+								
+								
+								
+									<option value="21000" 
+											data-calculator-s2id="708" 
+											data-calculator-price2="20 000" 
+											data-calculator-price3="30 000" 
+											data-calculator-special="20 000"
+									>Osstem, Южная Корея </option>
+								
+									<option value="26000" 
+											data-calculator-s2id="709" 
+											data-calculator-price2="35 000" 
+											data-calculator-price3="35 000" 
+											data-calculator-special="35 000"
+									>Astra Tech, Швеция </option>
+								
+									
+								
+							</select>
+							
+						</div>
+					</div>						
+
+					<div class="clearfix"></div>
+
+					<!-- Alpha Bio -->
+					<div class="calculator__block__details" data-calculator-details-s2id="708" style="display: block;">
+						<div class="calculator__block__details__title">
+							Импланты Osstem
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							—	простая и быстрая установка;<br> 
+							— быстрая приживаемость и низкая травматичность; <br>
+							— надежное сцепление с костной тканью.
+
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— существуют на рынке менее 15 лет, а это малый срок для исследований долговечности имплантов. 
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- MIS -->
+					<div class="calculator__block__details" data-calculator-details-s2id="711">
+						<div class="calculator__block__details__title">
+							Импланты MIS
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— подходят для кости любого размера; <br />
+							— быстрое привыкание к импланту; <br />
+							— высокая прочность и доступная цена.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— существуют на рынке менее 20 лет, это малый срок для исследований долговечности имплантов.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- Superline -->
+					<div class="calculator__block__details" data-calculator-details-s2id="712">
+						<div class="calculator__block__details__title">
+							Импланты Superline
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— очень прочное и раннее соединение с костью; <br />
+							— форма импланта повторяет корень зуба; <br />
+							— быстрая установка импланта; <br />
+							— большая скорость образования кости на импланте.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— существуют на рынке менее 15 лет, а это малый срок для исследований долговечности имплантов.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+					<!-- Implantium -->
+					<div class="calculator__block__details" data-calculator-details-s2id="709">
+						<div class="calculator__block__details__title">
+							Импланты Astra Tech
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— вековые исследования приживаемости и долговечности; <br>
+							— скорейшее заживление и обрастание костной тканью; <br>
+							— быстрая, простая и не травматичная установка; <br>
+							— подходят для кости любого размера. 
+
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— высокая стоимость имплантата. 
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- Astra -->
+					<div class="calculator__block__details" data-calculator-details-s2id="710">
+						<div class="calculator__block__details__title">
+							Импланты Astra
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— вековые исследования приживаемости и долговечности; <br />
+							— скорейшее заживление и обрастание костной тканью; <br />
+							— быстрая, простая и не травматичная установка; <br />
+							— подходят для кости любого размера.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— высокая стоимость импланта.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- Nobel Biocare -->
+					<div class="calculator__block__details" data-calculator-details-s2id="1550">
+						<div class="calculator__block__details__title">
+							Импланты Nobel Biocare
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							—  качество, проверенное и подтвержденное временем;<br />
+							— простая установка с минимальным дискомфортом;<br />
+							— высокая степень приживляемости 99,3%;<br />
+							— минимальный период приживления.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— высокая стоимость импланта.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>	
+					<div class="calculator__block__bottom">
+						<div class="calculator__navigation">
+							<button class="calculator__prev">Назад</button>
+							<button class="calculator__next" data-js-nav-link="1">Продолжить</button>
+						</div>
+						<div class="calculator__totals">
+							<div class="calculator__total">
+								<div class="calculator__total__title">Итого:</div>
+								<span id="result1">20 000 руб.</span> 
+								<span id="result2" style="display:none">35 000 руб.</span> 
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="calculator__block calculator_new__tab clearfix">
+					<div class="calculator__block__half calculator__block__half_new">
+					<div class="calculator__step">Выберите коронку на имплантах:</div>
+							<div class="styled-select">
+							<select name="s100" id="s100" onChange="Selected(this)">
+								<option value="1" >Не выбрано</option>
+								<option value="2" >Металлокерамика</option>
+								<option value="3">Диоксид циркония</option>
+							</select>
+						</div>
+						
+					</div>
+					<div class="clearfix"></div>
+					
+					<div id="material1"> 
+						<div class="calculator__block__details__title">
+							Коронка из металлокерамики
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— низкая стоимость; <br />
+							— высокая прочность; <br />
+							— простота изготовления. 
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— слегка отличается по цвету от остальных зубов; <br />
+							— может вызывать потемнение десны.
+						</div><br>
+						<br>
+						<br><br>
+						<br>
+						<br>
+						
+						<div class="clearfix"></div>
+					</div>
+
+					<div id="material2" >
+						<div class="calculator__block__details__title">
+							Коронка из диоксида циркония
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— идеальная эстетика в цвет зубов; <br />
+							— высочайшая долговечность; <br />
+							— минимальная обточка зубов.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— самая высокая цена среди всех видов коронок.
+						</div><br>
+						<br>
+						<br><br>
+						<br>
+						<br>
+						<div class="clearfix"></div>
+					</div>
+<script>
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0.5("8").4.6=\'7\';0.5("9").4.6=\'7\';i j(a){0.5("d").4.6=\'7\';0.5("c").4.6=\'7\';k b=a.h;g(b==1){0.5("8").4.6=\'7\';0.5("9").4.6=\'7\';0.5("d").4.6=\'7\';0.5("c").4.6=\'7\'}f g(b==2){0.5("8").4.6=\'e\';0.5("9").4.6=\'7\';0.5("d").4.6=\'e\';0.5("c").4.6=\'7\'}f g(b==3){0.5("8").4.6=\'7\';0.5("9").4.6=\'e\';0.5("d").4.6=\'7\';0.5("c").4.6=\'e\'}f{0.5("8").4.6=\'7\';0.5("9").4.6=\'7\'}}',21,21,'document||||style|getElementById|display|none|material1|material2||label|koronka2|koronka1|block|else|if|value|function|Selected|var'.split('|'),0,{}))
+
+</script>
+
+<script>
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('0.1("8").2.3=\'4\';0.1("7").2.3=\'4\';d e(a){f 6=a.j;b(6==g){0.1("8").2.3=\'5\';0.1("7").2.3=\'4\';0.1("9").2.3=\'5\';0.1("c").2.3=\'4\'}i b(6==h){0.1("8").2.3=\'4\';0.1("7").2.3=\'5\';0.1("9").2.3=\'4\';0.1("c").2.3=\'5\'}}',20,20,'document|getElementById|style|display|none|block|label|implant2|implant1|result1||if|result2|function|Selecte|var|21000|26000|else|value'.split('|'),0,{}))
+
+
+</script>
+
+
+					<div class="calculator__block__bottom">
+						<div class="calculator__navigation">
+							<button class="calculator__prev" data-js-nav-link="0">Назад</button>
+							<button class="calculator__next" data-js-nav-link="2">Продолжить</button>
+						</div>
+						<div class="calculator__totals">
+							<div class="calculator__total">
+								<div class="calculator__total__title">Итого:</div>
+							<!--	<span data-js-calculator="total">0 руб.</span>--> <span data-js-calculator="offer">0 руб.</span><br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="calculator__block calculator_new__tab">
+
+					
+					<div class="calculator__step">Выберите число имплантов:</div>
+						<div class="styled-select">
+							<select name="s1" id="s1">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3 скидка 5%</option>
+								<option value="4">4 скидка 10%</option>
+								<option value="5">5 скидка 10%</option>
+								<option value="6">6 скидка 15%</option>
+								<option value="7">7 скидка 15%</option>
+								<option value="8">8 скидка 20%</option>
+							</select>
+
+						</div><br><br><br>
+						
+						
+
+					<a style="display: none;" class="calculator__first-link" >
+						<input  class="radio radio1" type="radio" name="s3" value="price2" data-name="Металлокерамика" checked>
+						<label for="price2">Металлокерамика</label>
+					</a>
+
+					<a style="display: none;">
+						<input  class="radio radio1" type="radio" name="s3" value="price3"  data-name="Диоксид циркония">
+						<label for="price3">Диоксид циркония</label>
+					</a>
+
+					
+					<div class="clearfix"></div>
+					<div class="calculator__block__bottom">
+						<div class="calculator__navigation">
+							<button class="calculator__prev" data-js-nav-link="1">Назад</button>
+							<button class="calculator__next" data-js-nav-link="3">Дальше</button>
+						</div>
+						<div class="calculator__totals">
+							<div class="calculator__total">
+								<div class="calculator__total__title">Цена:</div>
+							<!--	<span data-js-calculator="total">0 руб.</span>-->
+								
+								<div class="calculator__offer">					
+						<span data-js-calculator="offer">0 руб.</span>
+						
+					</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				
+                <script>
+                
+                </script>
+                
+				<div class="calculator__block calculator_new__tab">
+					<div class="calculator_new__tab__title">Имплантация зубов</div><br>
+					<div class="calculator__total calculator__total_last">
+						<div class="calculator__total__title calculator__total__title_new">Итого:</div>
+						
+					
+						
+					<span data-js-calculator="total">0 руб.</span><br>
+						
+
+						
+							<div class="calculator__offer">					
+						<span data-js-calculator="offer" id="total_result">0 руб.</span>
+						
+						
+
+						
+						
+					</div>
+						<div class="calculator__total__title calculator__total__title_new">Имплант:</div>
+					<div id="implant1">Osstem, Южная Корея</div>
+					<div id="implant2" style="display:none;">Astra Tech, Швеция</div>
+						<div class="calculator__total__title calculator__total__title_new">Материал коронки:</div>
+					<div id="koronka1" style="display:none;"><p>Металлокерамика</p></div>
+					<div id="koronka2" style="display:none;"><p>Диоксид циркония</p></div>
+					</div>
+
+				
+                                
+					<div class="calculator__block__details" style="display: block;">
+						<div class="calculator__block__half calculator__block__half_plus">
+							<i>Включены:</i> <br />
+							•&nbsp&nbsp&nbspвсе требующиеся материалы <nobr>и процедуры; </nobr><br />
+							•&nbsp&nbsp&nbspформирователь десны; <br />
+							•&nbsp&nbsp&nbspиндивидуальные абатменты для каждой коронки.<br />
+							<i>Их преимущества:</i> <br />
+							•&nbsp&nbsp&nbspиндивидуализация конструкции <br />
+							•&nbsp&nbsp&nbspувеличние срока службы <br />
+							•&nbsp&nbsp&nbspповышенный уровень комфорта <br />
+							•&nbsp&nbsp&nbspэкономия от 10 тыс.руб. с каждого зуба; <br />
+							•&nbsp&nbsp&nbspнеобходимое количество приёмов у хирурга и ортопеда;<br />
+							•&nbsp&nbsp&nbspрасширенная гарантия на имплант.
+						</div>
+
+						
+
+						<div class="clearfix"></div>
+					</div>
+					<div style="" class="">
+						<form action="index.php" method="post">
+	<div class="h2"><br>Отправить заявку</div>
+	<p class="hidecalc">
+		<label>Ваше имя:</label><br />
+		<input required="" type="text" name="name" style="width:91%"  value="" />
+	</p><br>
+		
+		<input style="visibility:hidden;" id="total_result_input" type="text" name="result">
+			
+	<p class="hidecalc" style="margin-top:-50px;">
+		<label>Ваш телефон:</label><br />
+		<input required="" type="text" name="phone" style="width:91%"  value="" />
+	</p><br>
+	<button class="btn btn-blue btn-sub" >Отправить заявку</button>
+</form>		
+
+<script>
+      
+</script>
+						<br><br>
+						<div class="calculator__navigation">
+							<button class="calculator__prev" data-js-nav-link="2">Назад</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- Протезирование -->
+		<div class="calculator__tab clearfix">
+			<div class="tabs-navigation">
+				<a href="javascript:void(0);" data-js-nav-open-tab="0" data-count="1." class="active"><span>Материал</span><br><span>коронки</span></a>
+				<a href="javascript:void(0);" data-js-nav-open-tab="1" data-count="2."><span>Число</span><br><span>коронок</span></a>				
+				<a href="javascript:void(0);" data-js-nav-open-tab="2" class="tabs__last__item"><span>Итоговая</span><br><span>стоимость</span></a>
+			</div>
+			<div class="tabs-calculator">
+				<div class="calculator__block calculator_new__tab active clearfix">
+
+					<div class="calculator__block__half">
+						<div class="calculator__step">Выберите материал коронки:</div>
+						<div class="styled-select">
+							<select name="s5" id="s5">
+								
+									<option value="13 400" 
+											data-calculator-s5id="1303"
+											data-calculator-special="9 500"
+									>Металлокерамика</option>
+								
+									<option value="27 500" 
+											data-calculator-s5id="1304"
+											data-calculator-special="19 500"
+									>Безметалловая керамическая коронка E.max </option>
+								
+									<option value="30 000" 
+											data-calculator-s5id="1305"
+											data-calculator-special="19 500"
+									>Безметалловая коронка из диоксида циркония</option>
+								
+							</select>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<!-- Металлокерамика -->
+					<div class="calculator__block__details" data-calculator-details-s5id="1303" style="display: block;">
+						<div class="calculator__block__details__title">
+							Коронка из металлокерамики
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— низкая стоимость; <br />
+							— высокая прочность; <br />
+							— простота изготовления.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— слегка отличается по цвету от остальных зубов; <br />
+							— требует обточки зуба и иногда соседних зубов; <br />
+							— может вызывать потемнение десны.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- Безметалловая керамическая коронка E.max -->
+					<div class="calculator__block__details" data-calculator-details-s5id="1304">
+						<div class="calculator__block__details__title">
+							Безметалловая керамическая коронка E.max
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— идеальная эстетика в цвет зубов; <br />
+							— гипоалергенность, долговечность; <br />
+							— при установке не требует обточки зубов.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— высокая стоимость.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+
+					<!-- Безметалловая коронка из диоксида циркония -->
+					<div class="calculator__block__details" data-calculator-details-s5id="1305">
+						<div class="calculator__block__details__title">
+							Безметалловая коронка из диоксида циркония
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Преимущества:</i> <br />
+							— подавляет действие кариозных бактерий; <br />
+							— идеальная эстетика в цвет зубов; <br />
+							— высочайшая долговечность; <br />
+							— при установке не требует обточки зубов.
+						</div>
+
+						<div class="calculator__block__half">
+							<i>Недостатки:</i> <br />
+							— самая высокая цена среди всех видов коронок.
+						</div>
+
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="calculator__block__bottom">
+						<div class="calculator__navigation">
+							<button class="calculator__prev">Назад</button>
+							<button class="calculator__next" data-js-nav-link="1">Дальше</button>
+						</div>
+						<div class="calculator__totals">
+							<div class="calculator__total">
+								<div class="calculator__total__title">Итого:</div>
+								<span data-js-calculator="total">0 руб.</span> <span data-js-calculator="offer">0 руб.</span><br>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="calculator__block  calculator_new__tab clearfix">
+					<div class="calculator__block__half calculator__block__half_new">
+						<div class="calculator__step">Выберите число коронок:</div>
+						<div class="styled-select">
+							<select name="s4" id="s4">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="calculator__block__bottom">
+						<div class="calculator__navigation">
+							<button class="calculator__prev" data-js-nav-link="0">Назад</button>
+							<button class="calculator__next" data-js-nav-link="2">Дальше</button>
+						</div>
+						<div class="calculator__totals">
+							<div class="calculator__total">
+								<div class="calculator__total__title">Итого:</div>
+								<span data-js-calculator="total">0 руб.</span> <span data-js-calculator="offer">0 руб.</span><br>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="calculator__block  calculator_new__tab">
+					<div class="calculator__total__wrapper">
+						<div class="calculator__total calculator__total_last">
+							<div class="calculator__total__title calculator__total__title_new">Итого:</div>
+							<span data-js-calculator="total">0 руб.</span>
+						</div>
+
+						<div class="calculator__offer">					
+							<span data-js-calculator="offer">0 руб.</span>
+							
+						</div>
+					</div>
+					<div class="calculator__block calculator__form calculator__form_new calculator__form_prosthetic">
+						<form action="implantatsiya-zubov/kalkulyator" method="post">
+	<div class="h2">Отправить заявку</div>
+	<p class="hidecalc">
+		<label>Ваше имя:</label><br />
+		<input type="text" name="name" style="width:91%"  value="" />
+	</p>
+	<p class="hidecalc">
+		<label>Ваш телефон:</label><br />
+		<input type="text" name="phone" style="width:91%"  value="" />
+	</p>
+	<a class="btn btn-blue btn-sub" onclick="yaCounter29950729.reachGoal('kalc_goul');ga('send', 'event', 'kalc_goul', 'send');">Отправить заявку</a>
+	<input type="hidden" name="formid"  value="calcul" />
+</form>			
+						<div class="agreement__form">
+							Нажимая кнопку «Отправить заявку», Вы даёте согласие на обработку персональных <br>данных в соответствии с&nbsp;<a href="usloviya" target="_blank">Политикой&nbsp;конфиденциальности</a>.
+						</div>
+						<div class="calculator__navigation">
+							<button class="calculator__prev" data-js-nav-link="1">Назад</button>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		
+	</div>
+	
+
+
+	<style>
+
+.tab-block{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-bottom:30px;border-bottom:2px solid #f0f2f4;padding-top:40px}.tab-block:first-child{padding-top:10px}.tab-block:last-child{border-bottom:0;padding-bottom:0}.tab-block__right{width:100%;max-width:230px}.tab-block__left{width:65%}.tab-block__title{color:#48494a;font-size:18px;line-height:26px;margin-bottom:20px}.tab-block__title span{color:#43b9bb;font-weight:700;margin-right:4px}.types-block_implants_bottom{margin-bottom:60px}.calculator_new{background-color:#eaeff6;border:0;margin-bottom:60px}.calculator__block_n{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.calculator__block_n a{display:inline-block;width:100%;text-align:center;position:relative;padding:35px 10px 40px}.calculator__block_n a.active{background-color:#06ae94;color:#fff;font-size:18px;font-weight:700}.calculator__block_n a.active label{color:#fff;border-bottom:0}.calculator__block_n .calculator__first-link{padding-right:0}.calculator__block_n a label{position:static;padding-left:0;color:#43b9bb;font-size:18px;font-weight:700;border-bottom:1px dashed}.calculator__block_n .radio:checked + label:before,.calculator__block_n .radio:not(checked) + label:before,.calculator__block_n .radio:checked + label:after,.calculator__block_n .radio:not(checked) + label:after{display:none}.calculator_new .tabs-navigation{border-bottom:1px solid #d8dce2;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;padding:30px 50px 0}.calculator_new .tabs-navigation a{position:relative;padding-left:40px;padding-right:20px;text-decoration:none;color:#48494a;padding-bottom:30px;margin-bottom:-1px;margin-right:40px}.calculator_new .tabs-navigation a.active{border-bottom:1px solid #06ae94}.calculator_new .tabs-navigation a.active.past{border-bottom:0}.calculator_new .tabs-navigation a.past span{border-bottom:1px dashed #48494a}.calculator_new .tabs-navigation a:before{content:attr(data-count);position:absolute;left:0;top:10px;font-size:40px;font-weight:400;color:#a3a3a3}.calculator_new .tabs-navigation a.active:before{color:#43b9bb}.calculator_new .tabs-navigation a:after{content:"";position:absolute;top:18px;right:-15px;background:url(/images/implants-new/calc-new/arrow-3-ico.svg);width:11px;height:7px}.calculator_new .tabs-navigation a.tabs__last__item:before{content:"";background:url(card-ico.svg) no-repeat center center/contain;width:38px;height:26px;top:8px}.calculator_new .tabs-navigation a.tabs__last__item.active:before{background:url(card-ico-act.svg) no-repeat center center/contain}.calculator_new .tabs-navigation a.tabs__last__item{padding-left:48px;padding-right:10px;margin-right:0}.calculator_new .tabs-navigation a.tabs__last__item:after{display:none}.calculator_new .calculator__block__details{background-color:#eaeff6;border-top:0;margin:0 -40px 0}.calculator_new .calculator__block__details:before,.calculator_new .calculator__block__details:after{display:none}.calculator_new .calculator__block{padding-left:50px;padding-right:50px;border-bottom:0}.calculator_new .calculator__block__details__title{display:none}.calculator_new .calculator__step{font-weight:400;margin-bottom:11px}.calculator_new .styled-select select{padding-top:12px;padding-bottom:11px;font-size:16px;font-weight:700;color:#48494a;padding-left:16px;max-width:300px;width:300px}.calculator_new .styled-select:after{background:url(arrow-2-ico.png);width:11px;height:6px}.calculator__navigation{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.calculator__navigation button{width:120px;height:46px;-webkit-box-shadow:0 10px 20px rgba(0,0,0,0.15);box-shadow:0 10px 20px rgba(0,0,0,0.15);border-radius:4px;background-color:#06ae94;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border:0;color:#fff;font-size:16px;font-weight:700;cursor:pointer;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.calculator__navigation button:hover{opacity:.7}.calculator__navigation .calculator__next{background-color:#06ae94}.calculator__navigation .calculator__prev{margin-right:20px}.calculator__block__bottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin:0 -50px -5px;padding:17px 50px 0;border-top:1px solid #d7dce2}.calculator_new .calculator__block__bottom .calculator__total{text-align:right;margin-top:0;margin-right:0}.calculator_new .calculator__block__bottom .calculator__total__title{font-style:italic}.calculator_new .calculator__total span.calculator__total__old{color:#a3a3a3;font-size:18px;font-weight:400;text-decoration:line-through}.calculator_new .calculator__total span{color:#48494a;font-size:22px;font-weight:700;margin-left:10px}.calculator_new .calculator__total__action{color:#48494a;font-size:14px;font-weight:400;line-height:22px;display:inline-block;padding:1px 4px;background-color:#fff295;margin-top:8px;margin-left:10px}.calculator_new__tab{display:none}.calculator_new__tab:first-child{display:block}.calculator_new__tab:first-child .calculator__prev{display:none}.calculator__block__half_new{float:none;padding-bottom:40px}.calculator__total__title_new{font-style:italic}.calculator__block__half_plus{line-height:24px}.calculator__block__half_plus i:first-child{color:#43b9bb;margin-bottom:5px;display:inline-block}.calculator__block__half_minus i:first-child{color:#f58936;margin-bottom:5px;display:inline-block}.calculator_new__tab__title{color:#48494a;font-size:18px;line-height:22px;margin-top:25px}.calculator__total_last{margin-right:10px}.calculator__block.calculator__form_new{padding-right:0;padding-left:0;position:relative}.calculator_new .calculator__total_last span{margin-left:0}.calculator__form_new .hidecalc{width:48%}.calculator__form_new .hidecalc label{margin-bottom:10px;display:inline-block}.calculator__form_new .hidecalc input{height:28px}.calculator__form_new .btn-blue{height:46px;line-height:35px;padding-left:19px;padding-right:19px;margin-top:10px;margin-left:140px;background-color:#06ae94}.calculator__form_new .calculator__prev{position:absolute;left:0;bottom:40px}.calculator__form_new .agreement__form{color:#48494a;font-size:12px;line-height:22px;margin-top:20px}.calculator__form_new .agreement__form a{color:#43b9bb}.calculator__total__wrapper{padding-bottom:40px}.schedule-banner{background:url(/images/banners/schedule-banner.jpg) no-repeat left center/cover;padding:30px 20px 31px 225px;color:#fff;border-radius:4px}.schedule-banner__title{font-size:30px;line-height:normal}.schedule-banner__text{font-size:20px;font-weight:700;line-height:24px}.schedule-banner__desc{font-size:14px;line-height:24px}@media screen and (max-width:1000px){.award-slider-n{margin-left:0;margin-right:0}.about-block__left{max-width:65%}.about-video__right{padding:75px}.tasks-block__list li br{display:none}.types-block_implants .tabs-n__links{position:relative;overflow:hidden;height:110px;border-bottom:2px solid #f0f2f4}.types-block_implants .tabs-n__links a{-webkit-box-flex:0;-ms-flex:0;flex:0;min-width:100%;display:block;text-align:center;font-size:16px;height:auto;padding-bottom:31px;position:absolute;top:12px;display:none;padding-left:0;border-bottom:0}.types-block_implants .tabs-n__links a.active{display:block}.types-block_implants .tabs-n__links a:before{margin:0 auto 15px}.types-block_implants .tabs-n__nav_mobile{display:block;position:absolute;left:0;width:100%;top:0}.types-block_implants .tabs-n__content{text-align:center}.types-block_implants .tabs-n__content p,.types-block_implants .tabs-n__content ul{text-align:left}#main .about-block p{font-size:15px}.numbers-block{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.numbers-block__item{width:50%;text-align:center;margin-bottom:20px}.numbers-block__desc{font-size:13px}.guarantee{background:none;background-color:#eff3f9;padding:35px 25px;text-align:center;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.guarantee__header{font-size:22px}.guarantee__desc{font-size:18px}.prices-banner__title{margin-right:0;text-align:center}.prices-banner{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.why-we__item{width:100%;text-align:center}.alternates__item{background-position:center left}.alternates-block_implants_price .alternates__item p{height:96px}.about-block__left p br{display:none}.stages-implants__item{margin-left:51px;padding:30px 5px 30px 0}.stages-implants__item:before{width:34px;height:36px;left:-51px;top:25px}#main .stages-implants__item p{font-size:15px}#main .stages-implants__item p br{display:none}.stages-implants__item:after{top:77px;left:-34px}.stages-implants__item:nth-child(1):after{height:140px}.stages-implants__title{font-size:15px;margin-bottom:15px}.tab-block{-ms-flex-wrap:wrap-reverse;flex-wrap:wrap-reverse;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.tab-block__left{width:100%;margin-top:25px}.tab-block__title{text-align:left;font-size:16px}#main .tab-block__left p:fist-child{font-size:15px}#main .tab-block__left br{display:none}.garant-block{background-image:none;background-color:#eff3f9;text-align:center;padding:15px}.calculator.calculator_new{margin-left:0;margin-right:0;overflow:hidden}.calculator__block_n a{padding:26px 10px 27px;font-size:15px}.calculator__block_n a label{font-size:15px}.calculator_new .calculator__block{padding-left:20px;padding-right:20px}.calculator__block__bottom{-ms-flex-wrap:wrap-reverse;flex-wrap:wrap-reverse;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.calculator_new .calculator__block__bottom .calculator__total{text-align:center;margin-bottom:35px}.calculator_new .styled-select select{width:100%}.calculator__block.calculator__form_new{padding-left:0;padding-right:0}.calculator__form_new .hidecalc{width:100%}.calculator__form_new .btn-blue{margin-left:0}.calculator__form_new .calculator__prev{position:relative;bottom:0;margin-top:15px}.schedule-banner__title{font-size:24px}}@media screen and (max-width:375px){.laboratory__title{font-size:20px;line-height:26px}.types-block_onetooth .tabs-n__links a{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-left:0;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;height:85px}.tabs-n__links a:before{margin-left:30px;margin-right:30px}.accordion-n__link a{font-size:16px}#main h2.new_h2 br{display:none}.allure-n__desc br{display:none}.stages-implants__item:after{display:none}}@media screen and (max-width:360px){.allure-n__desc br{display:none}}@media screen and (max-width:320px){#main .allure-n__header p{font-size:24px;line-height:34px}.tabs-n__links a{padding-left:15px;font-size:13px}.exp-block{padding:25px}.laboratory__title{font-size:16px;line-height:20px}.accordion-n__link{padding-left:30px}.accordion-n__link a{font-size:14px}}body{background:#fff;margin:0;padding:0;font-family:"pt sans",sans-serif;font-size:14px;line-height:20px;color:#48494a}.row{margin-left:-20px;*zoom:1}.row:before,.row:after{display:table;line-height:0;content:""}.row:after{clear:both}.span1{margin-left:20px;width:60px;float:left}.span2{margin-left:20px;width:140px;float:left}.span3{margin-left:20px;width:220px;float:left}.span4{margin-left:20px;width:300px;float:left}.span5{margin-left:20px;width:380px;float:left}.span6{margin-left:20px;width:620px;float:left}.wrapper,.container{width:760px;margin:0 auto}.calculator{background-color:#edf3f6;border:1px solid #edf3f6;border-radius:4px}.calculator__header{border-bottom:1px solid #d3dbdf;padding-top:29px;padding-bottom:29px}.calculator__block{border-bottom:1px solid #d3dbdf;padding-left:40px;padding-right:40px;padding-top:5px;padding-bottom:29px}.calculator__step{font-size:14px;font-weight:700;line-height:26px;margin-top:22px;margin-bottom:6px}.calculator__block a{text-decoration:none;font-size:16px;font-weight:400;line-height:26px}.calculator__block:last-child{border-bottom:none}.calculator__first-link{padding-right:34px}.calculator__tab{display:none}.calculator__tabs .calculator__tab:first-child{display:block}.calculator__block__half{box-sizing:border-box;width:50%;float:left}.calculator__total__title{font-size:14px;font-weight:400;line-height:26px}.calculator__total{margin-right:45px}.calculator__total,.calculator__offer{display:inline-block;margin-top:20px}.calculator__total span.calculator__total__old{text-decoration:line-through}.calculator__total span{font-size:20px;font-weight:400;line-height:28px}.calculator__offer span{font-size:20px;font-weight:700;line-height:28px}.calculator__block__details,.calculator__block__details1{position:relative;background-color:#f5fafc;padding:30px 40px;border-top:1px solid #d3dbdf;margin:20px -41px -29px;font-size:14px;line-height:20px;font-weight:400;display:none}.calculator__block__details .calculator__block__half:nth-child(2){padding-right:15px}.calculator__block__details .calculator__block__half:nth-child(3){padding-left:15px}.calculator__block__details:before{content:'';display:block;position:absolute;width:0;height:0;border-style:solid;border-width:12px 0 0 12px;border-color:transparent transparent transparent #f5fafc;top:-12px;left:154px;z-index:1}.calculator__block__details:after{content:'';display:block;position:absolute;width:0;height:0;border-style:solid;border-width:14px 0 0 14px;border-color:transparent transparent transparent #d3dbdf;top:-14px;left:153px;z-index:0}.calculator__block__details__title{font-size:18px;font-weight:400;line-height:20px;margin-bottom:20px}.calculator__form{border-top:1px solid #d3dbdf}.calculator__form .h2{font-size:18px;font-weight:400;line-height:20px;margin-top:22px;margin-bottom:19px}.calculator__form .hidecalc{display:inline-block;margin-right:7px}.calculator__form .hidecalc label{font-size:14px}.calculator__form input{border:1px solid #dcdcdc;background:#fff;border-radius:4px;height:19px}.calculator__form input.error{border-color:red;background:rgba(255,0,0,0.1)}.calculator__form .btn-blue{box-shadow:0 10px 20px rgba(0,0,0,.15);font-family:"pt sans",sans-serif;background-color:#43b9bb;border-radius:4px;display:inline-block;height:31px;color:#fff;font-size:16px;font-weight:700;line-height:22px;cursor:pointer;outline:0;border:none;padding-left:14px;padding-right:14px;text-decoration:none;box-sizing:border-box;text-shadow:none;background-image:none;background-repeat:initial;margin-top:20px}.calculator__form .btn-blue:hover{box-shadow:0 3px 13px rgba(0,0,0,.21);background-color:#17a4a6;background-position:initial;color:#fff !important}.calculator__success{margin-top:25px;text-align:center;max-width:485px;margin-left:auto;margin-right:auto}.styled-select{position:relative;display:inline-block}.styled-select:after{content:'';background-image:url(../images/dashed-arrow.png);background-repeat:no-repeat;-webkit-transform:rotate(0);transform:rotate(0);transition:all .2s ease-in;display:block;width:9px;height:5px;position:absolute;right:10px;top:50%;margin-top:-3px}.styled-select.styled-select_open:after{-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}.styled-select select{-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius:4px;border:1px solid #dcdcdc;background-color:#fff;padding-top:7px;padding-bottom:7px;padding-left:10px;padding-right:30px;max-width:220px}.styled-select select::-ms-expand{display:none}@media screen and (min-width:0\0){.styled-select select{background-image:none \9;padding:5px \9}}.radio:not(checked) + label{position:relative;padding:0 0 0 30px;display:inline-block;line-height:24px}label{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.radio + label{cursor:pointer}.radio:not(checked) + label:before{content:"";box-sizing:border-box;transition:all .2s ease-in;border:1px solid #dcdcdc;background-color:#fff;border-radius:50%;position:absolute;top:2px;left:0;width:20px;height:20px}.radio:checked + label:before{border:1px solid #21a5a7;background-color:#21a5a7}.radio:checked + label:after{opacity:1}.radio:not(checked) + label:after{content:"";box-sizing:border-box;transition:all .2s ease-in;background-color:#fff;position:absolute;border-radius:50%;top:8px;left:6px;width:8px;height:8px;opacity:0}.radio:not(checked){position:absolute;opacity:0}.radio{vertical-align:top;width:20px;height:20px}..agreement__section{margin-bottom:20px;font-size:16px;line-height:22px}.agreement__section > b{display:inline-block;margin-bottom:5px}.agreement__form{margin-top:10px;font-size:11px;color:#888;line-height:12px}.agreement__form a{font-size:11px;color:#888;text-decoration:underline;line-height:12px}.agreement__form a:hover{text-decoration:none}.clrfix{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}.clearfix:after{clear:both}
+	</style>
+</div>
+
+<script type="text/javascript" >
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('3 4={q:"p.o.l.m"};(2(d,w,c){(w[c]=w[c]||[]).r(2(){t{w.z=y x.u({v:k,b:6.4,8:1,a:1,7:1,9:1})}j(e){}});3 n=d.i("5")[0],s=d.h("5"),f=2(){n.g.B(s,n)};s.U="Q/W";s.S=1;s.P="T://V.R.N/G/O.F";E(w.C=="[D H]"){d.I("M",f,L)}K{f()}})(J,6,"A");',59,59,'|true|function|var|yaParams|script|window|accurateTrackBounce|clickmap|webvisor|trackLinks|params|||||parentNode|createElement|getElementsByTagName|catch|29950729|203|11||180|213|ip_adress|push||try|Metrika2|id||Ya|new|yaCounter29950729|yandex_metrika_callbacks2|insertBefore|opera|object|if|js|metrika|Opera|addEventListener|document|else|false|DOMContentLoaded|ru|tag|src|text|yandex|async|https|type|mc|javascript'.split('|'),0,{}))
+
+</script>
+
+<script src="jquery.magnific-popup.min.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
+<script>$(window).load(function(){ $('.tabs-n__links a').each(function(){ $(this).on('click',function(e){ e.preventDefault(); var target=$(this).attr('href'); var links=$(this).parent(); var content=links.next(); links.find('a').removeClass('active'); content.children('div').removeClass('active').hide(); $(this).addClass('active'); $(target).addClass('active').fadeIn() }) }); $('.types-block_implants .tabs-n__nav__prev').on('click',function(e){ var links=$(this).parent().next(); var active=links.find('.active'); if(active.prev().length>0){ active.prev().addClass('active'); active.removeClass('active'); var act=active.index(); $('.types-block_implants .tabs-n__content>div').removeClass('active').hide(); $('#tab'+act).addClass('active').fadeIn() }else{ e.preventDefault() } }); $('.types-block_implants .tabs-n__nav__next').on('click',function(e){ var links=$(this).parent().next(); var active=links.find('.active'); if(active.next().length>0){ active.next().addClass('active'); active.removeClass('active'); var act=active.index()+2; $('.types-block_implants .tabs-n__content>div').removeClass('active').hide(); $('#tab'+act).addClass('active').fadeIn(); console.log(act); console.log(active.index()) }else{ e.preventDefault() } }); var stages=$('.stages-carousel'); stages.owlCarousel({ items:1, navigation:true, pagination:true, navigationText:["",""], itemsTablet:[1000,1] }); var alternates=$('.alternates-carousel'); alternates.owlCarousel({ items:1, addClassActive:true, navigation:true, pagination:true, itemsTablet:[1000,1], navigationText:["",""], afterInit:function(event){ var item=event.find('.owl-item.active').index()+1; var items=event.find('.owl-item').length; $('.alternates__info').html(item+" / "+items) }, afterMove:function(event){ var item=event.find('.owl-item.active').index()+1; var items=event.find('.owl-item').length; $('.alternates__info').html(item+" / "+items) } }); $('.accordion-n__link a').each(function(){ $(this).on('click',function(e){ e.preventDefault(); var target=$(this).attr('href'); $(this).toggleClass('active'); $(target).slideToggle().toggleClass('active') }) }); var goal=function($el,goal,ns){ ns=$.trim(ns)?'_'+ns:''; var data='js-goal-initiated'+ns; if($el.length&&goal&&!$el.data(data)){ yaCounter29950729.reachGoal(goal); console.log(goal); $el.attr('data-'+data,true) } }; if($('.calculator_new').length>0){ var $calculator=jQuery('.calculator_new'); if($calculator.length){ var $inputs=$calculator.find(':input'); var $tabs_l=$calculator.find('.calculator__tab'); $inputs.on('change',function(){ goal($calculator,'m_use_calc') }); var $open_tab=$calculator.find('[data-js-calculator-open-tab]'); $open_tab.on('click',function(){ var $current=jQuery(this), $tabs=$calculator.find('.calculator__tab'), tab=$current.data('js-calculator-open-tab'); $tabs.hide(); $tabs.eq(tab).show(); $('.calculator__block_n a').removeClass('active'); $current.addClass('active') }); var $tab_implants=$calculator.find('.calculator__tab').eq(0), $tab_prosthetics=$calculator.find('.calculator__tab').eq(1); $($tabs_l).each(function(){ var nav_bar=$(this).find('.tabs-navigation'); var $open_small=nav_bar.find('[data-js-nav-open-tab]'), $small_tabs=$(this).find('.calculator_new__tab'), $tabs_btn_next=$small_tabs.find('.calculator__next'), $tabs_btn_prev=$small_tabs.find('.calculator__prev'); $open_small.each(function(){ $(this).on('click',function(e){ var $this=jQuery(this), tab_sm=$this.data('js-nav-open-tab'); $open_small.removeClass('past active'); $small_tabs.hide(); $small_tabs.eq(tab_sm).show(); $this.prevAll().addClass('past'); $this.addClass('active'); if($(window).width()<600){ var width=$this.width(), index=$this.index(), offset=width*index*2; console.log(offset); $this.parent().css({ 'marginLeft':'-'+offset+'px' }) } if($(window).width()<360){ var width=$this.width(), index=$this.index(), offset=width*index*2.5; console.log(offset); $this.parent().css({ 'marginLeft':'-'+offset+'px' }) } }) }); $tabs_btn_next.on('click',function(){ var btn_nav=$(this).data('js-nav-link'); $open_small.eq(btn_nav).trigger('click') }); $tabs_btn_prev.on('click',function(){ var btn_nav=$(this).data('js-nav-link'); $open_small.eq(btn_nav).trigger('click') }) }); var $offer_implants_block=$tab_implants.find('.calculator__offer'), $offer_implants=$tab_implants.find('[data-js-calculator="offer"]'), $total_implants=$tab_implants.find('[data-js-calculator="total"]'), $system=jQuery('#s2'), $system1=jQuery('#s2'), $count_implants=jQuery('#s1'), $koronka=jQuery('#s100'), $crown_implants=jQuery('[name="s3"]'), special_field='price2'; var extract_system=function(){ var $selected=$system.find('option:selected'); return{ id:$selected.data('calculator-s2id'), name:jQuery.trim($selected.text()), price:parseInt($system.val().replace(/\s*/g,'')), price2:parseInt($selected.data('calculator-price2').replace(/\s*/g,'')), price3:parseInt($selected.data('calculator-price3').replace(/\s*/g,'')), special:parseInt($selected.data('calculator-special').replace(/\s*/g,'')) } }; var system=extract_system(), count_implants=$count_implants.val(), koronka=$koronka.val(), system1=$system1.val(), crown_type=$crown_implants.filter(':checked').val(); var calculate_implants=function(){ var full_price=system[crown_type], old_price=full_price*count_implants, new_price=0; if(crown_type===special_field&&system.special){ full_price=system.special; if(count_implants==1||count_implants==2){ if(koronka==2&&system.id==708){ new_price=(full_price+20000)*count_implants; old_price=(full_price+20000)*count_implants }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*count_implants; old_price=(full_price+25000)*count_implants }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*count_implants; old_price=(full_price+30000)*count_implants }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*count_implants; old_price=(full_price+35000)*count_implants } }else if(count_implants==3){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*3)-(((full_price+20000)*3)/100)*5; old_price=((full_price+20000)*3) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*3-(((full_price+25000)*3)/100)*5; old_price=(full_price+25000)*3 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*3-(((full_price+30000)*3)/100)*5; old_price=(full_price+30000)*3 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*3-(((full_price+35000)*3)/100)*5; old_price=(full_price+35000)*3 } }else if(count_implants==4){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*4)-(((full_price+20000)*4)/100)*10; old_price=((full_price+20000)*4) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*4-(((full_price+25000)*4)/100)*10; old_price=(full_price+25000)*4 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*4-(((full_price+30000)*4)/100)*10; old_price=(full_price+30000)*4 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*4-(((full_price+35000)*4)/100)*10; old_price=(full_price+35000)*4 } }else if(count_implants==5){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*5)-(((full_price+20000)*5)/100)*10; old_price=((full_price+20000)*5) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*5-(((full_price+25000)*5)/100)*10; old_price=(full_price+25000)*5 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*5-(((full_price+30000)*5)/100)*10; old_price=(full_price+30000)*5 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*5-(((full_price+35000)*5)/100)*10; old_price=(full_price+30000)*5 } }else if(count_implants==6){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*6)-(((full_price+20000)*6)/100)*15; old_price=((full_price+20000)*6) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*6-(((full_price+25000)*6)/100)*15; old_price=(full_price+25000)*6 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*6-(((full_price+30000)*6)/100)*15; old_price=(full_price+30000)*6 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*6-(((full_price+35000)*6)/100)*15; old_price=(full_price+35000)*6 } }else if(count_implants==7){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*7)-(((full_price+20000)*7)/100)*15; old_price=((full_price+20000)*7) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*7-(((full_price+25000)*7)/100)*15; old_price=(full_price+25000)*7 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*7-(((full_price+30000)*7)/100)*15; old_price=(full_price+30000)*7 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*7-(((full_price+35000)*7)/100)*15; old_price=(full_price+35000)*7 } }else if(count_implants==8){ if(koronka==2&&system.id==708){ new_price=((full_price+20000)*8)-(((full_price+20000)*8)/100)*20; old_price=((full_price+20000)*8) }else if(koronka==2&&system.id==709){ new_price=(full_price+25000)*8-(((full_price+25000)*8)/100)*20; old_price=(full_price+25000)*8 }else if(koronka==3&&system.id==708){ new_price=(full_price+30000)*8-(((full_price+30000)*8)/100)*20; old_price=(full_price+30000)*8 }else if(koronka==3&&system.id==709){ new_price=(full_price+35000)*8-(((full_price+35000)*8)/100)*20; old_price=(full_price+35000)*8; } } } var height=new_price, input=document.getElementById('total_result_input');total_result_input.value=height; $total_implants.text(old_price.format()+' руб.'); if(new_price){ $total_implants.addClass('calculator__total__old'); $offer_implants_block.show(); $offer_implants.text(new_price.format()+' руб.'); $offer_implants.show(); $('.calculator__total__action').show() }else{ $total_implants.removeClass('calculator__total__old'); $offer_implants_block.hide(); $offer_implants.hide(); $('.calculator__total__action').hide() } }; calculate_implants(); $system.on('change',function(){ system=extract_system(); jQuery('[data-calculator-details-s2id]').hide(); jQuery('[data-calculator-details-s2id="'+system.id+'"]').show() }); $count_implants.on('change',function(){ count_implants=$count_implants.val() }); $koronka.on('change',function(){ koronka=$koronka.val() }); $crown_implants.on('change',function(){ crown_type=$crown_implants.filter(':checked').val(); jQuery('[data-calculator-details-s3type]').hide(); jQuery('[data-calculator-details-s3type="'+crown_type+'"]').show() }); var $inputs_implants=$tab_implants.find(':input'); $inputs_implants.on('change',function(){ calculate_implants() }); var $offer_prosthetics_block=$tab_prosthetics.find('.calculator__offer'), $offer_prosthetics=$tab_prosthetics.find('[data-js-calculator="offer"]'), $total_prosthetics=$tab_prosthetics.find('[data-js-calculator="total"]'), $count_prosthetics=jQuery('#s4'), $crown_prosthetics=jQuery('#s5'); var extract_crown=function(){ var $selected=$crown_prosthetics.find('option:selected'); return{ id:$selected.data('calculator-s5id'), name:jQuery.trim($selected.text()), price:parseInt($system.val().replace(/\s*/g,'')), special:parseInt($selected.data('calculator-special').replace(/\s*/g,'')) } }; var crown=extract_crown(); $crown_prosthetics.on('change',function(){ crown=extract_crown(); jQuery('[data-calculator-details-s5id]').hide(); jQuery('[data-calculator-details-s5id="'+crown.id+'"]').show() }); $count_prosthetics.on('change',function(){ count_prosthetics=$count_prosthetics.val() }); var count_prosthetics=$count_prosthetics.val(); var calculate_prosthetics=function(){ var full_price=crown.price, old_price=full_price*count_prosthetics, new_price=0; if(crown.special){ full_price=crown.special; new_price=full_price*count_prosthetics } $total_prosthetics.text(old_price.format()+' руб.'); if(new_price){ $total_prosthetics.addClass('calculator__total__old'); $offer_prosthetics_block.show(); $offer_prosthetics.text(new_price.format()+' руб.') }else{ $total_prosthetics.removeClass('calculator__total__old'); $offer_prosthetics_block.hide() } }; calculate_prosthetics(); var $inputs_prosthetics=$tab_prosthetics.find(':input'); $inputs_prosthetics.on('change',function(){ calculate_prosthetics() }); var $calc_form_implantation=jQuery('.calculator__form_implantation'), $calc_form_prosthetic=jQuery('.calculator__form_prosthetic'), $form_implantation=$calc_form_implantation.find('form'), $form_prosthetic=$calc_form_prosthetic.find('form'), $calc_btn_implantation=$calc_form_implantation.find('.btn-sub'); $calc_btn_prosthetic=$calc_form_prosthetic.find('.btn-sub'); $calc_btn_implantation.click(function(e){ e.preventDefault(); var errors=0; $calc_form_implantation.find('input[type="text"]').each(function(){ if(!jQuery.trim(jQuery(this).val())){ jQuery(this).addClass('error'); jQuery(this).off('focus').on('focus',function(){ jQuery(this).removeClass('error') }); errors++ } }); if(!errors){ var info='', calc_type=$calculator.find('[name="calc_type"]:checked').val(); info='Имплантация. Имплантов: '+count_implants+'; Система: '+system.name+'; Коронка: '+$crown_implants.filter(':checked').data('name'); jQuery.ajax({ type:'post', url:$form_implantation.attr('action'), data:$form_implantation.serialize()+'&info='+info, resetForm:'true', success:function(){ $calc_form_implantation.html('<div class="calculator__success">Ваша заявка отправлена!</div>') } }) } }); $calc_btn_prosthetic.click(function(e){ e.preventDefault(); var errors=0; $calc_form_prosthetic.find('input[type="text"]').each(function(){ if(!jQuery.trim(jQuery(this).val())){ jQuery(this).addClass('error'); jQuery(this).off('focus').on('focus',function(){ jQuery(this).removeClass('error') }); errors++ } }); if(!errors){ var info='', calc_type=$calculator.find('[name="calc_type"]:checked').val(); info='Протезирование. Коронок: '+count_prosthetics+'; Материал коронки: '+crown.name; jQuery.ajax({ type:'post', url:$form_prosthetic.attr('action'), data:$form_prosthetic.serialize()+'&info='+info, resetForm:'true', success:function(){ $calc_form_prosthetic.html('<div class="calculator__success">Ваша заявка отправлена!</div>') } }) } }) } } }); </script>
+<style>
+    select
+    {cursor:pointer;}
+    .calculator_new .tabs-navigation a:after {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: -15px;
+    background: url(arrow-3-ico.svg);
+    width: 11px;
+    height: 7px;
+}
+.btn.btn-blue.btn-sub
+{
+   height:50px; 
+}
+input
+{
+    height:30px;
+}
+</style>
+</body>
+</html>
