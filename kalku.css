@@ -179,7 +179,10 @@
     border-top: 0;
     margin: 0 -40px 0;
 }
-.calculator_new .calculator__block__details:before, .calculator_new .calculator__block__details:after {
+.calculator_new 
+.calculator__block__details:before, 
+.calculator_new 
+.calculator__block__details:after {
     display: none;
 }
 .calculator_new .calculator__block {
@@ -390,7 +393,8 @@
     padding-bottom: 40px;
 }
 .schedule-banner {
-    background: url(/images/banners/schedule-banner.jpg) no-repeat left center/cover;
+    background: url(/images/banners/schedule-banner.jpg)
+     no-repeat left center/cover;
     padding: 30px 20px 31px 225px;
     color: #fff;
     border-radius: 4px;
@@ -459,7 +463,10 @@
 .types-block_implants .tabs-n__content {
     text-align: center;
 }
-.types-block_implants .tabs-n__content p, .types-block_implants .tabs-n__content ul {
+.types-block_implants 
+.tabs-n__content p, 
+.types-block_implants 
+.tabs-n__content ul {
     text-align: left;
 }
 #main .about-block p {
@@ -1162,25 +1169,63 @@ input
 }
 .butkal .btn{border-radius: 4px;}
 @media screen and (max-width: 760px){.hidecalc {width: 100%;}}
-@media screen and (max-width: 760px){.button_pop{ width: 100%;  text-align: center;}}
-@media screen and (max-width: 760px){.popup form .button_pop label { width: 91%;    z-index: 9999999;}}
-/*@media screen and (max-width: 760px){.popup form .button_pop label input[name=apply] { margin-left: 10px;}}*/
-@media screen and (max-width: 760px){.popup form .button_pop .button {  width: 100%;}}
-@media screen and (max-width: 760px){.popup form .button_pop label span { width: 90%;}}
-@media screen and (max-width: 760px){.popup form .button button { width: 80%;}}
-@media screen and (max-width: 760px){.radio:not(checked) + label {padding: 0 0 0 0;}}
-@media screen and (max-width: 760px){.calculator__totals{margin-left: 10px;}}
-@media screen and (max-width: 760px){.calculator__block__half { width: 91%;}}
-@media screen and (max-width: 760px){.butkal .btn{border-radius: 4px; margin-top:15px; float: left;}}
-@media screen and (max-width: 760px){.calculator__block__details{margin: 20px -40px 0!important; padding: 10px 40px;}}
+@media screen and (max-width: 760px) {
+    .button_pop{ width: 100%;  text-align: center;}
+}
+@media screen and (max-width: 760px){
+    .popup form .button_pop label { width: 91%;    z-index: 9999999;}
+}
+/*
+@media screen and (max-width: 760px) {
+    .popup form .button_pop label input[name=apply] { margin-left: 10px;}
+    }
+*/
+@media screen and (max-width: 760px) {
+    .popup form .button_pop .button {  width: 100%;}
+}
+@media screen and (max-width: 760px) {
+    .popup form .button_pop label span { width: 90%;}
+}
+@media screen and (max-width: 760px) {
+    .popup form .button button { width: 80%;}
+}
+@media screen and (max-width: 760px) {
+    .radio:not(checked) + label {padding: 0 0 0 0;}
+}
+@media screen and (max-width: 760px) {
+    .calculator__totals{margin-left: 10px;}
+}
+@media screen and (max-width: 760px) {
+    .calculator__block__half { width: 91%;}
+}
+@media screen and (max-width: 760px) {
+    .butkal .btn{border-radius: 4px; margin-top:15px; float: left;}
+}
+@media screen and (max-width: 760px) {
+    .calculator__block__details{
+        margin: 20px -40px 0!important; padding: 10px 40px;
+    }
+}
 
-@media screen and (max-width: 760px){.calculator__block_n a label {font-size: 25px;  width: 75%;}}
-@media screen and (max-width: 760px){.calculator__total {margin-top: 0px;}}
-@media screen and (max-width: 760px){.popup form .button_pop label input[name=apply]{margin-top: 4px;}}
-@media screen and (max-width: 760px){.calculator__offer{margin-top: 0px;}}
-@media screen and (max-width: 760px){#koronka1 p, #koronka2 p{margin-top: 0px;}}
+@media screen and (max-width: 760px) {
+    .calculator__block_n a label {font-size: 25px;  width: 75%;}
+}
+@media screen and (max-width: 760px) {
+    .calculator__total {margin-top: 0px;}
+}
+@media screen and (max-width: 760px) {
+    .popup form .button_pop label input[name=apply]{margin-top: 4px;}
+}
+@media screen and (max-width: 760px) {
+    .calculator__offer{margin-top: 0px;}
+}
+@media screen and (max-width: 760px) {
+    #koronka1 p, #koronka2 p{margin-top: 0px;}
+}
 .kalku{height: 1100px;}
-@media screen and (max-width: 760px){.desk{display:none;}}
+@media screen and (max-width: 760px) {
+    .desk{display:none;}
+}
 .popup .kalku{padding: 0px; padding-top: 0px;}
 .popup .kalku{width: 760px;}
 body {
