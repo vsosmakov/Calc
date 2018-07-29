@@ -8,6 +8,13 @@
          url('fonts/roboto.svg#roboto') format('svg');
 }
 
+button, select {
+    outline: none;
+  }
+
+
+
+
 .tab-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -216,6 +223,8 @@
     padding-left: 16px;
     max-width: 300px;
     width: 300px;
+    border-radius: 25px;
+    transition: all .1s ease-in;
 }
 .calculator_new .styled-select:after {
     background: url(arrow-2-ico.png);
@@ -952,9 +961,13 @@ body {
     width: 9px;
     height: 5px;
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 50%;
     margin-top: -3px;
+}
+.styled-select.styled-select_open select {
+    /*transition: all .1s ease-in;*/
+    border-radius: 25px 25px 2px 2px;
 }
 .styled-select.styled-select_open:after {
     -webkit-transform: rotate(-180deg);
